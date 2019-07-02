@@ -1,0 +1,1180 @@
+@media screen and (min-width: 1300px){
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: Open Sans, sans-serif;
+    }
+    .clearfix:after {
+        content: '';
+        display: table;
+        width: 100%;
+        clear: both;
+    }
+    .container{
+        width: 1030px;
+        margin: 0 auto;
+    }
+
+
+    /*header*/
+    header{
+        height: 800px; 
+    }
+    .container1{
+        display: none;
+    }
+    .mid{
+        width: 940px;
+        margin: 0px auto;
+        text-align: justify;
+        margin-top: -110px;
+    }
+    .header{
+        background: #67E300;
+        opacity: 0;
+    }
+    .content {
+        margin-top: 90px;
+    }
+    #menu {
+        display: inline-block;
+    }
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .header-logo{
+        text-align: center;
+        position: absolute;
+        margin-top: -900px;
+        margin-left: 100px;
+    }
+    .header-logo-img{
+        padding-top: 200px;
+        width: 800px;
+    }
+    .menu-logo{
+        width: 200px;
+        padding: 0 0 45px 30px;
+    }
+    .menu0{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 11px;
+        line-height: 2em;
+        padding: 5px 0 5px 0;
+    }
+    li{
+        display: inline-block;
+        position: relative;
+        padding: 0 8px;
+    }
+    li:hover{
+        border-bottom: 4px solid #00b050;
+        padding-bottom: 10px;
+    }
+
+    .headhesive {
+        background: rgba(0, 0, 0, 0.30);
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+        padding: 25px 0;
+        opacity: 1;
+        z-index: 999;
+    }
+    .headhesive--stick{
+        padding: 10px 0;
+        background-color: black ;
+        border-bottom: 5px solid #00b050;
+        z-index: 1;
+    }
+    .headhesive--stick .logotype {
+        width: 70px;
+        height: auto;
+    }
+    .main-bg{
+        text-align: center;
+        background-image: url(../img/header-bg/header_bg2.jpg);
+/*        background: rgba(0, 0, 0, 0.30);*/
+        height: 900px;
+    }
+/*
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        z-index: -2;
+        width: 1519px;
+    }
+*/
+    #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+
+
+    /*Домашній фітолікар*/
+    .home-doctor{
+        padding-bottom: 60px;
+        padding-top: 90px;
+    }
+    .home-doctor-header h2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .home-doctor-header p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 22px;
+        color: #4b4b4b;
+    }
+    span{
+        color: #2caf0a;
+    }
+
+    .home-doctor-section{
+        padding-top: 50px;
+    }
+    .home-doctor-section h3{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .home-doctor-section p{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+
+    }
+    .section-left{
+        float: left;
+        width: 32%;
+        text-align: center;
+    }
+    .section-left img{
+        width:200px;
+        padding: 10px 0;
+    }
+    .foto-senter{
+        width: 36%;
+        float: left;
+        text-align: center;
+    }
+    .foto-senter img{
+        padding-top: 20px;
+        width: 380px;
+        height: 500px;
+    }
+    .section-right{
+        width: 32%;
+        float:right;
+        text-align: center;
+    }
+    .section-right img{
+        width:200px;
+        padding: 10px 0;
+    }
+
+    .home-doctor-footer{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+    /*Вам вигідно працювати з нами*/
+    .profitable-work-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .profitable-work-grid div{
+        text-align: center;
+    }
+    .profitable-work-title{
+        padding-top: 30px;
+    }
+    .profitable-work-title h3{
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        text-align:left;
+    }
+    .profitable-work-title p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-align:left;
+    }
+    .profitable-work-grid h4{
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+    }
+    .profitable-work-grid p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .profitable-work-grid img{
+        width: 200px;
+    }
+
+
+
+    /*Слайдер*/
+    .h1-slider{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 36px;
+        padding-top: 60px;
+    }
+    .all{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    #slider { /*положение слайдера*/
+        position: relative;
+        text-align: center;
+        top: 10px;
+    }
+    #slider{ /*центровка слайдера*/
+        margin: 0 auto;
+    }
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 20%;
+        float: left;
+    }
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width: 500%;
+        line-height: 0;
+    }
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+    }
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+        max-width: 960px; /*максимальнная длинна*/
+    }
+    /*настройка переключения и положения для левой стрелки*/
+    /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+    #switch1:checked ~ #controls label:nth-child(5), 
+    #switch2:checked ~ #controls label:nth-child(1),
+    #switch3:checked ~ #controls label:nth-child(2),
+    #switch4:checked ~ #controls label:nth-child(3),
+    #switch5:checked ~ #controls label:nth-child(4){
+        background: url('../img/slider/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+        float: left;
+        margin: 0 0 0 -84px; /*сдвиг влево*/
+        display: block;
+        height: 68px;
+        width: 68px;
+    }
+    /*настройка переключения и положения для правой стрелки*/
+    #switch1:checked ~ #controls label:nth-child(2), 
+    #switch2:checked ~ #controls label:nth-child(3),
+    #switch3:checked ~ #controls label:nth-child(4),
+    #switch4:checked ~ #controls label:nth-child(5),
+    #switch5:checked ~ #controls label:nth-child(1){
+        background: url('../img/slider/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+        float: right;
+        margin: 0 -84px 0 0; /*сдвиг вправо*/
+        display: block;
+        height: 68px;
+        width: 68px;
+    }
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -25% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 10px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 15px;
+        height: 15px;
+        background: #bbb;
+    }
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: #3bf10e;
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: #2caf0a;
+        border-color: #2caf0a !important;
+    }
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+    #controls label:hover{ /*прозрачность стрелок при наведении*/
+        opacity: 0.6;
+    }
+    #controls label{ /*прозрачность стрелок при отводе курсора*/
+        transition: opacity 0.2s ease-out;
+    }
+
+
+
+    /*Створення фіто стіни*/
+    .creating-phytowall h1{
+        margin: 0;
+        padding: 0;
+        margin: 30px 0 20px 0;
+        font-size: 36px;
+        text-align: center;
+    }
+    .creating-phytowall video{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    /*Меню реєстрації*/
+    .bg-registration-menu {
+        background-image: url(../img/header-bg/sfmoma_living_wall3.jpg);
+        height: 800px;
+        margin-top: 50px;
+    }
+    .registration-menu-h1{
+        margin: 0;
+        padding: 30px 0;
+        color: white;
+        font-size: 36px;
+    }
+    .registration-menu a{
+        color: #fff;
+    }
+    .registration-menu a:hover{
+        text-decoration: 
+    }
+    .registration-menu{
+        width: 450px;
+        background-color: rgba(24, 33, 52, 0.7);
+        margin: 50px auto 0 auto;
+        text-align: center;
+        box-shadow: 0 -5px 0 #1d7906;
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 10px;
+    }
+    .registration-menu-main{
+        padding-top: 150px;
+    }
+    input[type="text"], input[type="number"], input[type="email"]{
+        width: 300px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+    textarea[type="text"]{
+        width: 300px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        padding-left: 10px;
+        
+    }
+    .dws-submit{
+        padding: 13px 30px;
+        margin: 5px 0 20px 0;
+        font-size: 15px;
+        color: #fff;
+        background-color: #2caf0a;
+        border: none;
+        border-bottom: 4px solid #1d7906;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .dws-submit:hover {
+        transition: all 0.5s;
+        background: #fff;
+        color: #29aa09; 
+    }
+
+
+
+    /*Контакти*/
+    .footer{
+        background-color: white;
+    /*    background-image: linear-gradient(to bottom right, #008000 , #b3e6b3);*/
+        height: 270px;
+    }
+    .footer-main{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .footer-logo{
+        width: 300px;
+        text-align: center;
+    }
+    .footer-main p{
+        float: right;
+        margin: 0;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .footer-main div{
+        margin: 20px 10px 20px 10px;
+    }
+    .left-block{
+        float: left;
+        width: 300px;
+        margin: 20px;
+    }
+    .right-block{
+        float: right;
+        width: 300px;
+        margin: 20px;
+    }
+    /*Контакти-іконки*/
+    .fa-map-marker-alt{
+        font-size: 50px;
+        color: #2caf0a;
+    }
+    .fa-phone{
+        font-size: 50px;
+        color: #2caf0a;
+    }
+    .fa-envelope{
+        font-size: 50px;
+        color: #2caf0a;
+    }
+    .fa-youtube{
+        font-size: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: rgb(255, 0, 0);
+    }
+    .fa-facebook-square{
+        font-size: 50px;
+        margin-right: 20px;
+        color: #46629e;
+    }
+    .fa-viber{
+        font-size: 50px;
+        margin-right: 20px;
+        color:#7c529e;
+    }
+    .fa-instagram{
+        font-size: 50px;
+        color: #fbad50;
+    }
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 1299px){
+        body{
+        padding: 0;
+        margin: 0;
+        font-family: Open Sans, sans-serif;
+    }
+    .clearfix:after {
+        content: '';
+        display: table;
+        width: 100%;
+        clear: both;
+    }
+    .container{
+        width: 100%;
+        max-width: 1030px;
+        margin: 0 auto;
+    }
+
+
+    /*header*/
+    header{
+        height: 800px; 
+    }
+/*
+    .mid{
+        width: 100%;
+        max-width: 940px;
+        margin: 0px auto;
+        text-align: justify;
+        margin-top: -110px;
+    }
+*/
+/*
+    .header{
+        background: #67E300;
+        opacity: 0;
+    }
+*/
+/*
+    .content {
+        margin-top: 90px;
+    }
+*/
+/*
+    #menu {
+        display: inline-block;
+    }
+*/
+/*
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+*/
+    .header-logo{
+        text-align: center;
+        position: absolute;
+        margin-top: -400px;
+/*        margin-left: 100px;*/
+    }
+    .header-logo-img{
+/*
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 500px;
+*/
+        display: none;
+    }
+    .header-logo-img1{
+        width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-logo{
+        display: none;
+    }
+    {
+        display: none;
+    }
+/*
+    .menu0{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 11px;
+        line-height: 2em;
+        padding: 5px 0 5px 0;
+    }
+*/
+/*
+    li{
+        display: inline-block;
+        position: relative;
+        padding: 0 8px;
+    }
+*/
+/*
+    li:hover{
+        border-bottom: 4px solid #00b050;
+        padding-bottom: 10px;
+    }
+*/
+.headhesive{
+    display: none
+}
+   
+/*
+    .headhesive {
+        background: rgba(0, 0, 0, 0.30);
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+        padding: 25px 0;
+        opacity: 1;
+    }
+    .headhesive--stick{
+        padding: 10px 0;
+        background-color: black ;
+        border-bottom: 5px solid #00b050;
+        z-index: 1;
+    }
+    .headhesive--stick {
+        width: 70px;
+        height: auto;
+    }
+*/
+
+/*
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        z-index: -2;
+        width: 1519px;
+    }
+*/
+/*
+    #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+*/
+    #GreenWalls{
+        text-align: center;
+        background-image: url(../img/header-bg/header_bg2.jpg);
+        height: 480px;
+    }
+    .container1 {
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .header1 {
+      height: 155px;
+      background-color: #333;
+      position: relative;
+    }
+    .nav {
+      width: 100%;
+      box-shadow: inset 0 5px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 100;
+      display: none;
+    }
+    .nav__item {
+      display: block;
+      height: 56px;
+      font-weight: bold;
+      color: black;
+      font-size: 14px;
+      line-height: 56px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: #2caf0a;
+      transition: background-color 0.1s linear, color 0.1s linear;
+    }
+    .nav__item:not(:first-of-type) {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .nav__item:not(:last-of-type) {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .nav__item:last-of-type {
+      box-shadow: inset 0 -5px 10px -5px rgba(0, 0, 0, 0.4);
+    }
+    .nav__item:hover {
+      background-color: white;
+    }
+    .nav__item:active {
+      background-color: white;
+      color: #fff;
+    }
+    .nav-burger {
+      display: block;
+      width: 25px;
+      height: 23px;
+      cursor: pointer;
+      color: transparent;
+      font-size: 0;
+      background: url("../img/icon-menu.svg") no-repeat;
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      z-index: 1;
+    }
+    .nav-burger__checkbox {
+      display: none;
+    }
+    .nav-burger__checkbox:checked + .nav-burger {
+      background-image: url("../img/icon-cross.svg");
+    }
+    .nav-burger__checkbox:checked ~ .nav {
+      display: block;
+    }
+    
+
+    /*Домашній фітолікар*/
+    .home-doctor{
+/*
+        padding-bottom: 60px;
+        padding-top: 90px;
+        
+*/
+        width: 100%;
+        max-width:1299px;
+    }
+    .home-doctor-header{
+    }
+    .home-doctor-header h2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .home-doctor-header p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 22px;
+        color: #4b4b4b;
+    }
+    span{
+        color: #2caf0a;
+    }
+
+    .home-doctor-section{
+        padding-top: 50px;
+    }
+    .home-doctor-section h3{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .home-doctor-section p{
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        width: 100%;
+        max-width: 1299px;
+        margin: 0 auto;
+
+    }
+    .section-left{
+/*        float: left;*/
+        text-align: center;
+    }
+    .section-left img{
+        width:100%;
+        max-width: 250px;
+        padding: 10px 0;
+    }
+    .foto-senter{
+        
+        display: none;
+    }
+    .foto-senter img{
+        display: none;
+    }
+    .section-right{
+/*        width: 32%;*/
+/*        float:right;*/
+        text-align: center;
+    }
+    .section-right img{
+        width:250px;
+        padding: 10px 0;
+    }
+
+    .home-doctor-footer{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+    /*Вам вигідно працювати з нами*/
+    .profitable-work-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+    .profitable-work-grid div{
+        text-align: center;
+    }
+    .profitable-work-title{
+        padding-top: 30px;
+    }
+    .profitable-work-title h3{
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        text-align:left;
+    }
+    .profitable-work-title p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-align:left;
+    }
+    .profitable-work-grid h4{
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+    }
+    .profitable-work-grid p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .profitable-work-grid img{
+        width: 250px;
+    }
+
+
+
+    /*Слайдер*/
+    .h1-slider{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 36px;
+        padding-top: 60px;
+    }
+    .all{
+        padding-top: 40px;
+        padding-bottom: 80px;
+        width: 100%;
+        max-width: 1299px;
+    }
+    #slider { /*положение слайдера*/
+        position: relative;
+        text-align: center;
+        top: 10px;
+    }
+    #slider{ /*центровка слайдера*/
+        margin: 0 auto;
+    }
+    #slides article{ /*все изображения справа друг от доруга*/
+        width: 20%;
+        float: left;
+    }
+    #slides .image{ /*устанавливает общий размер блока с изображениями*/
+        width: 500%;
+        line-height: 0;
+    }
+    #overflow{ /*сркывает все, что находится за пределами этого блока*/
+        width: 100%;
+        overflow: hidden;
+    }
+    article img{ /*размер изображений слайдера*/
+        width: 100%;
+        max-width: 1299px;
+    }
+    #desktop:checked ~ #slider{ /*размер всего слайдера*/
+        max-width: 960px; /*максимальнная длинна*/
+    }
+    /*настройка переключения и положения для левой стрелки*/
+    /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+    #switch1:checked ~ #controls label:nth-child(5), 
+    #switch2:checked ~ #controls label:nth-child(1),
+    #switch3:checked ~ #controls label:nth-child(2),
+    #switch4:checked ~ #controls label:nth-child(3),
+    #switch5:checked ~ #controls label:nth-child(4){
+        background: url('../img/slider/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+        float: left;
+        margin: 0 0 0 0; /*сдвиг влево*/
+        display: block;
+        height: 68px;
+        width: 68px;
+    }
+    /*настройка переключения и положения для правой стрелки*/
+    #switch1:checked ~ #controls label:nth-child(2), 
+    #switch2:checked ~ #controls label:nth-child(3),
+    #switch3:checked ~ #controls label:nth-child(4),
+    #switch4:checked ~ #controls label:nth-child(5),
+    #switch5:checked ~ #controls label:nth-child(1){
+        background: url('../img/slider/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+        float: right;
+        margin: 0 0 0 0; /*сдвиг вправо*/
+        display: block;
+        height: 68px;
+        width: 68px;
+    }
+    label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+        cursor: pointer;
+    }
+    .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+        display: none;
+    }
+    /*позиция изображения при активации переключателя*/
+    #switch1:checked ~ #slides .image{
+        margin-left: 0;
+    }
+    #switch2:checked ~ #slides .image{
+        margin-left: -100%;
+    }
+    #switch3:checked ~ #slides .image{
+        margin-left: -200%;
+    }
+    #switch4:checked ~ #slides .image{
+        margin-left: -300%;
+    }
+    #switch5:checked ~ #slides .image{
+        margin-left: -400%;
+    }
+    #controls{ /*положение блока всех управляющих элементов*/
+        margin: -25% 0 0 0;
+        width: 100%;
+        height: 50px;
+    }
+    #active label{ /*стиль отдельного переключателя*/
+        border-radius: 10px; /*скругление углов*/
+        display: inline-block; /*расположение в строку*/
+        width: 15px;
+        height: 15px;
+        background: #bbb;
+    }
+    #active{ /*расположение блока с переключателями*/
+        margin: 23% 0 0;
+        text-align: center;
+    }
+    #active label:hover{ /*поведение чекбокса при наведении*/
+        background: #3bf10e;
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+    /*цвет активного лейбла при активации чекбокса*/
+    #switch1:checked ~ #active label:nth-child(1),
+    #switch2:checked ~ #active label:nth-child(2),
+    #switch3:checked ~ #active label:nth-child(3),
+    #switch4:checked ~ #active label:nth-child(4),
+    #switch5:checked ~ #active label:nth-child(5){
+        background: #2caf0a;
+        border-color: #2caf0a !important;
+    }
+    #slides .image{ /*анимация пролистывания изображений*/
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    }
+    #controls label:hover{ /*прозрачность стрелок при наведении*/
+        opacity: 0.6;
+    }
+    #controls label{ /*прозрачность стрелок при отводе курсора*/
+        transition: opacity 0.2s ease-out;
+    }
+
+
+
+    /*Створення фіто стіни*/
+    .creating-phytowall h1{
+        margin: 0;
+        padding: 0;
+        margin: 30px 0 20px 0;
+        font-size: 36px;
+        text-align: center;
+    }
+    .creating-phytowall video{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    /*Меню реєстрації*/
+    .form-reg{
+    }
+    .bg-registration-menu {
+        background-image: url(../img/header-bg/sfmoma_living_wall3.jpg);
+        height: 800px;
+        margin-top: 50px;
+    }
+    .registration-menu-h1{
+        margin: 0;
+        padding: 30px 0;
+        color: white;
+        font-size: 36px;
+    }
+    .registration-menu a{
+        color: #fff;
+    }
+    .registration-menu a:hover{
+        text-decoration: 
+    }
+    .registration-menu{
+        width: 100%;
+        max-width:450px;
+        background-color: rgba(24, 33, 52, 0.7);
+        margin: 50px auto 0 auto;
+        text-align: center;
+        box-shadow: 0 -5px 0 #1d7906;
+        border-radius: 0 0 10px 10px;
+        padding-bottom: 10px;
+    }
+    .registration-menu-main{
+        padding-top: 150px;
+    }
+    input[type="text"], input[type="number"], input[type="email"]{
+        width: 100%;
+        max-width: 300px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+    textarea[type="text"]{
+        width: 100%;
+        max-width: 300px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        padding-left: 10px;
+        
+    }
+    .dws-submit{
+        padding: 13px 30px;
+        margin: 5px 0 20px 0;
+        font-size: 15px;
+        color: #fff;
+        background-color: #2caf0a;
+        border: none;
+        border-bottom: 4px solid #1d7906;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .dws-submit:hover {
+        transition: all 0.5s;
+        background: #fff;
+        color: #29aa09; 
+    }
+
+
+
+    /*Контакти*/
+    .footer{
+        background-color: white;
+    /*    background-image: linear-gradient(to bottom right, #008000 , #b3e6b3);*/
+        height: 270px;
+    }
+    .footer-main{
+        width: 100%;
+        max-width: 1299px;
+        text-align: center;
+        margin: 20px;
+/*        margin: 0 auto;*/
+    }
+    .footer-logo{
+        width: 300px;
+        text-align: center;
+    }
+    .footer-main p{
+/*        float: right;*/
+        margin: 0;
+        padding: 15px;
+        font-size: 20px;
+    }
+/*
+    .footer-main div{
+        margin: 20px 10px 20px 10px;
+    }
+*/
+    .left-block{
+/*        float: left;*/
+        width: 300px;
+        margin: 20px;
+        margin: 20px 10px 20px 10px;
+        margin: 0 auto;
+    }
+    .right-block{
+/*        float: right;*/
+        width: 300px;
+        margin: 20px 10px 20px 10px;
+        margin: 20px;
+        margin: 0 auto;
+        
+    }
+    /*Контакти-іконки*/
+    .fa-map-marker-alt{
+        font-size: 50px;
+        color: #2caf0a;
+    }
+    .fa-phone{
+        font-size: 50px;
+        color: #2caf0a;
+    }
+    .fa-envelope{
+        font-size: 50px;
+        color: #2caf0a;
+    }
+    .fa-youtube{
+        font-size: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: rgb(255, 0, 0);
+    }
+    .fa-facebook-square{
+        font-size: 50px;
+        margin-right: 20px;
+        color: #46629e;
+    }
+    .fa-viber{
+        font-size: 50px;
+        margin-right: 20px;
+        color:#7c529e;
+    }
+    .fa-instagram{
+        font-size: 50px;
+        color: #fbad50;
+    }
+
+}
+
